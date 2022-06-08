@@ -1,3 +1,0 @@
-Proof that ibt is off
-$ cat /proc/cmdline
-BOOT_IMAGE=/vmlinuz-linux root=UUID=09c40e8e-f96b-4057-8f42-c12c258cb869 rw loglevel=3 quiet splash ibt=off
