@@ -7,7 +7,7 @@ Fyi having ibt=off is a must to get any games working with on a Arch Linux pc th
 https://github.com/NVIDIA/open-gpu-kernel-modules/issues/256 also apparently open suse has some issues too so keep that in mind
 
 Also I did some other work trying to make sure I had all the right Nvidia drivers and I had to do some work with making sure xorg was working right
-using the guide here https://wiki.archlinux.org/title/Xorg#General
+using the guide here https://wiki.archlinux.org/title/Xorg#General and I didn't have nvidia-settings package installed so I made sure to grab that
 
 Apparently Steam Runtime chooses at random which proton Vulkan Driver to use. so if its using the wrong one you don't have installed it fails to launch 
 Or maybe it just has trouble detecting which vulkan driver you actually have installed.
