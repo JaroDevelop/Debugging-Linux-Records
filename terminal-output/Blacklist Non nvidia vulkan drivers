@@ -1,0 +1,12 @@
+$cd ..
+$cd ..
+$ cd user
+$ cd share
+$ cd vulkan
+$ cd icd.d
+$ sudo mv amd_icd32.json amd_icd32.json.disabled
+$ sudo mv amd_icd64.json amd_icd64.json.disabled
+$ cd .. 
+$ cd implicit_layer.d
+$ sudo mv amd_icd32.json amd_icd32.json.disabled
+$ sudo mv amd_icd64.json amd_icd64.json.disabled
