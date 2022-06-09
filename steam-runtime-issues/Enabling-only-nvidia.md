@@ -47,5 +47,5 @@ $ sudo mv amd_icd64.json amd_icd64.json.disabled`
 
 
 
-After that my games started working
+After that my games started working.
 I'll post in Steam runtime issues if I have anything else to report.
