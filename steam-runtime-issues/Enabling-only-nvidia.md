@@ -21,7 +21,7 @@ https://github.com/Jedhless-Huudie/Debugging-Linux-Records/blob/HUB/terminal-out
 
 Here is what I did to blacklist all other drivers except Nvidia
 
-`$cd ..
+$cd ..
 
 $cd ..
 
@@ -43,7 +43,7 @@ $ cd implicit_layer.d
 
 $ sudo mv amd_icd32.json amd_icd32.json.disabled
 
-$ sudo mv amd_icd64.json amd_icd64.json.disabled`
+$ sudo mv amd_icd64.json amd_icd64.json.disabled
 
 
 
