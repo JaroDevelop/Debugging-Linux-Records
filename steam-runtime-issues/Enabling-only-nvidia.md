@@ -19,7 +19,7 @@ I also have a terminal output that I saved so you can find it later
 
 https://github.com/Jedhless-Huudie/Debugging-Linux-Records/blob/HUB/terminal-output/Blacklist%20Non%20nvidia%20vulkan%20drivers
 
-Here is what I did to blacklist all other drivers except Nvidia
+Here is what I did to blacklist all other drivers except Nvidia. Steps to do this is also described here https://github.com/ValveSoftware/steam-runtime/issues/312
 
 $cd ..
 
