@@ -25,7 +25,7 @@ $cd ..
 
 $cd ..
 
-$ cd user
+$ cd usr
 
 $ cd share
 
