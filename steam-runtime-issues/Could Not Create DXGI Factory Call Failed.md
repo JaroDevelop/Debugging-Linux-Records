@@ -25,7 +25,7 @@ $ cd vulkan
 $ cd icd.d
 
 $ sudo mv amd_icd32.json amd_icd32.json.disabled
-https://github.com/Jedhless-Huudie/Debugging-Linux-Records/blob/HUB/steam-runtime-issues/Enabling-only-nvidia.md
+
 $ sudo mv amd_icd64.json amd_icd64.json.disabled
 
 $ cd ..
