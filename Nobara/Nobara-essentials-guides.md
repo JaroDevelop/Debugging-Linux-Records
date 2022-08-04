@@ -4,7 +4,7 @@ https://docs.fedoraproject.org/en-US/quick-docs/switching-desktop-environments/ 
 https://old.reddit.com/r/Fedora/comments/jvjqhq/switch_from_gnome_to_kde/
 
 Essential Forum posts
-https://github.com/ValveSoftware/Proton/issues/3706#issuecomment-981630630
+https://github.com/ValveSoftware/Proton/issues/3706#issuecomment-981630630  ,
 https://steamcommunity.com/app/261550/discussions/0/2144217924392222478/
 Esential Commands
  
