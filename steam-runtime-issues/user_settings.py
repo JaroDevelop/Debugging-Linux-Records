@@ -1,5 +1,5 @@
+#This file is located wherever your proton version is saved. as user_settings.py or sample_user_settings.py
 #To enable these settings, name this file "user_settings.py".
-
 #Settings here will take effect for all games run in this Proton version.
 
 user_settings = {
