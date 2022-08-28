@@ -1,3 +1,5 @@
+#Although I used this fix for Arch Linux This also works for Nobara as well when having issues with steam choosing the wrong vulkan driver.
+
 I made a post in the Arch Linux newbie corner here https://bbs.archlinux.org/viewtopic.php?pid=2040091#p2040091
 and Seth was kind enough to walk me though this process.
 Together we found out that why none of my Steam runtime games were launching looking at the logs I posted at the main hub repo. which will be posted in
