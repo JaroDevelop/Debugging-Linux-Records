@@ -1,5 +1,5 @@
 DEBUGGING 101
-Change sample_user_settings.py to user_settings.py
+Locate wherever your proton version is saved. find user_settings.py or sample_user_settings.py, rename to user_settings.py if needed
 Make sure that inside of the file the # is removed in front of 
 "WINEDEBUG": "+timestamp,+pid,+seh,+unwind,+debugstr,+loaddll,+mscoree", 
 This should give you the proton logs in the home directory.
