@@ -1,0 +1,28 @@
+This fixes my crashes and otherwisem poor performance in bannerlord.
+
+THIS IS VERY SIMILAR to my Arch Enable only-Nvidia fix to run steam games at all.
+This also just fixes bannerlord. I will have to test Space Engineers if this fix breaks it.
+
+The steps are as follows.
+In terminal do these commands
+
+
+cd ..
+cd ..
+cd usr
+cd share
+cd vulkan
+cd icd.d
+sudo mv intel_icd.i686.json intel_icd.i686.json.disabled
+sudo mv intel_icd.x86_64.json intel_icd.x86_64.json.disabled
+sudo mv radeon_icd.i686.json radeon_icd.i686.json.disabled
+sudo mv radeon_icd.x86_64.json radeon_icd.x86_64.json.disabled
+cd..
+cd implicit_layer.d
+sudo mv VkLayer_MESA_device_select.json VkLayer_MESA_device_select.json.disabled
+
+
+This works very much the same. Just you only need to do icd.d
+The other ones in implicit_layer.d are REALLY different than those on arch.
+
+This doesn't fix my issue with getting Bannerlord to run but it might for you.
