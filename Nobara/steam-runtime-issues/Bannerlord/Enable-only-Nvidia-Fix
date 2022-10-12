@@ -3,7 +3,14 @@ This fixes my crashes and otherwisem poor performance in bannerlord.
 THIS IS VERY SIMILAR to my Arch Enable only-Nvidia fix to run steam games at all.
 This also just fixes bannerlord. I will have to test Space Engineers if this fix breaks it.
 
-The steps are as follows.
+This is the old way of doing it. Glorious Eggroll told me the right way to do it
+
+NEW - Put this command launch options in steam first before any other commands.
+VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json %command%
+this should always enable Nvidia ICD is being used.
+
+
+OLD ###The steps are as follows.
 In terminal do these commands
 
 
@@ -26,3 +33,4 @@ This works very much the same. Just you only need to do icd.d
 The other ones in implicit_layer.d are REALLY different than those on arch.
 
 This doesn't fix my issue with getting Bannerlord to run but it might for you.
+###
