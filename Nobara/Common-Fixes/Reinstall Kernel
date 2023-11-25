@@ -1,0 +1,2 @@
+sudo dnf reinstall kernel*
+# should reinstall kernel and should trigger dracut
